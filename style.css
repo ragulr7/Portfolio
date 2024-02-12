@@ -1,0 +1,279 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Style the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the main sections */
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Style the portfolio projects */
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Style the contact section */
+section#contact {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+section#contact a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    header nav ul li {
+        margin-right: 10px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    .project {
+        padding: 10px;
+    }
+
+    .project h3 {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+/* Reset some default margin and padding for the entire page */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background image to the entire page */
+body {
+    background-image: url('https://media.istockphoto.com/id/1301421740/vector/abstract-backdrop-yellow-background-minimal-empty-space-with-soft-light.jpg?s=612x612&w=0&k=20&c=LmAvP9miV9gxAX4eUd5HtMEhP3Sf5sN8HPz6vCoEBfQ='); /* Replace 'your-background-image.jpg' with your image file */
+    background-size: cover; /* Cover the entire viewport */
+    font-family: Arial, sans-serif; /* Specify a font */
+    color: #333; /* Text color */
+}
+
+/* Style the header */
+header {
+    background-color: #black;
+ /* Header background color */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the header */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style the section containing the education information */
+section#schooling {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #333;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style links in the navigation menu */
+nav ul li a, footer a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover, footer a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+.profile-picture img {
+    border-radius: 50%; /* Apply a circular border-radius to the image */
+    max-width: 200px; /* Set a maximum width for the circular image */
+    display: block; /* Center the image horizontally */
+    margin: 0 auto; /* Center the image horizontally */
+}
+/* Reset some default margin and padding for the entire page */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background color and text styles */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #0056b3;
+}
+
+/* Style the about section */
+#about {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style the portfolio section */
+#portfolio {
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-content h3 {
+    margin-top: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
